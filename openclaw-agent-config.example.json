@@ -1,0 +1,18 @@
+{
+  "_comment": "Add this agent entry to the 'agents.list' array in your openclaw.json",
+  "id": "anatole",
+  "name": "anatole",
+  "workspace": "/path/to/your/openclaw/workspace-anatole",
+  "agentDir": "/path/to/your/openclaw/agents/anatole/agent",
+  "model": "codex",
+  "identity": {
+    "name": "Anatole"
+  },
+  "tools": {
+    "deny": [
+      "browser",
+      "cron",
+      "nodes"
+    ]
+  }
+}

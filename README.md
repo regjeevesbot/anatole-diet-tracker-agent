@@ -2,6 +2,8 @@
 
 Anatole is a calm, minimal health logging assistant that runs as an OpenClaw agent. It tracks food, macros, water, symptoms, and supplements via natural language — designed for low-friction daily use over Telegram (or any OpenClaw channel).
 
+![Anatole Avatar](assets/anatole-avatar.jpg)
+
 ## What It Does
 
 - **Food logging** — tell it what you ate in plain language and it logs structured macro data (calories, protein, carbs, fat, saturated fat)
@@ -30,7 +32,7 @@ It never silently estimates when better data exists.
 ## Directory Structure
 
 ```
-anatole-export/
+anatole-diet-tracker-agent/
 ├── README.md                          # This file
 ├── openclaw-agent-config.example.json # Sample agent config for openclaw.json
 │
